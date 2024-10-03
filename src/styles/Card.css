@@ -1,0 +1,46 @@
+.card {
+    --card-shadow: 0 25px 25px rgba(0, 0, 0, .0477);
+    --text-preset-1 : 700 22px/120% 'Outfit', sans-serif;
+    --text-preset-2 : 400 15px/140% 'Outfit', sans-serif;
+
+    width: 90%;
+    max-width: 320px;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--white);
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+    box-shadow: var(--card-shadow);
+    cursor: pointer;
+}
+
+.card__image {
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding-inline: 16px;
+}
+
+.card__title {
+    font: var(--text-preset-1);
+    color: var(--slate-900);
+}
+
+
+.card__description {
+    font: var(--text-preset-2);
+    color: var(--slate-500);
+}

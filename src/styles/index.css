@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+img {
+    max-width: 100%;
+}
+  
+
+:root {
+    --white: #ffffff;
+    --slate-300: #d5e1ef;
+    --slate-500: #68778d;
+    --slate-900: #1f314f;
+}
